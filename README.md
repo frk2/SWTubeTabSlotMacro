@@ -2,7 +2,13 @@
 
 SolidWorks add-in that creates tab & slot features on intersecting weldment tubes. Select two tubular weldment bodies, click the toolbar button, and the add-in generates extruded tabs and matching slot cuts at the intersection.
 
+## Demo
+https://github.com/user-attachments/assets/a00217a0-b023-441c-9a76-af69a1dc3cf5
+
 ## Usage
+
+
+
 
 1. Open a part with weldment tube bodies
 2. Select two bodies — first is the **tab** tube, second is the **slot** tube
@@ -38,3 +44,4 @@ Re-registration is only needed if you change the GUID, move the DLL, or switch b
 | `TabSketchHelper.cs` | Draws tab cross-section profiles on sketch planes |
 | `FeatureHelper.cs` | Extrude tab boss and cut slot operations |
 | `DebugHelper.cs` | Debug visualization (behind `#if DEBUG`) |
+
